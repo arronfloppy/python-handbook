@@ -1,5 +1,5 @@
 # The basics of working with python
-# select code and run with shift + enter
+# select code in VSCode and run with shift + enter
 
 # statements
 name = "Roger"
