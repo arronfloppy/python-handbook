@@ -17,3 +17,14 @@ type(fraction) == float
 
 # Complex numbers
 # Complex numbers are of type complex
+
+complexNumber = 2+3j
+complexNumber = complex(2, 3)
+type(complexNumber) == complex
+
+complexNumber.real
+# 2.0
+complexNumber.imag
+# 3.0
+
+# Arithmetic operations on numbers
