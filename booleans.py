@@ -37,3 +37,14 @@ book_2_read = False
 read_any_book = any([book_1_read, book_2_read])
 print(read_any_book)
 # True
+
+read_any_book = any(["", 0])
+print(read_any_book)
+# False
+
+# The global all() function is same, but returns True if all of the values
+# passed to it are True :
+ingredients_purchased = True
+meal_cooked = False
+ready_to_serve = all([ingredients_purchased, meal_cooked])
+print(ready_to_serve)
