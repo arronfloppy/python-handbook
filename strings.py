@@ -33,7 +33,7 @@ years old
 # strip() endswith() replace() split() ...
 
 # None of those methods alter the original string. They return a new,
-# modified string instead. For example: 
+# modified string instead. For example:
 name = "Roger"
 print(name.lower())
 # "roger"
@@ -52,7 +52,8 @@ print("ger" in name)
 # escape string
 name = "Ro\"ger"
 
-# get its characters using square brackets to get a specific item, given its index, starting
+# get its characters using square brackets to get a specific item,
+# given its index, starting
 # from 0:
 name = "Roger"
 name[0]

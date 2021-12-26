@@ -37,5 +37,3 @@ book_2_read = False
 read_any_book = any([book_1_read, book_2_read])
 print(read_any_book)
 # True
-
-
