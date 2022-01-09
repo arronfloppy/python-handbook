@@ -2,7 +2,7 @@
 name = "Roger"
 
 # concatenate strings
-phrase = "Roder " + " is a good dog"
+phrase = "Roger " + " is a good dog"
 
 # append to a string
 name = "Roger"
