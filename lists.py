@@ -75,4 +75,3 @@ itemscopy = items[:]
 print(sorted(items, key=str.lower))
 """ that will return a new list, sorted, instead of modifying
 the original list. """
-
