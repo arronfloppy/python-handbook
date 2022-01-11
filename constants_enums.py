@@ -1,4 +1,4 @@
-from enum import Enum
+from enum import Enum, auto
 
 
 # Constants
@@ -39,13 +39,26 @@ print(State.ACTIVE)
 # State.Active
 print(State(1))
 # State.Active
-print(State['ACTIVE'])
+print(State["ACTIVE"])
 # State.Active
 print(State.ACTIVE.value)
 # 1
+print(State.ACTIVE.name)
+# ACTIVE
 
 # You can list all the possible values of an enum:
 print(list(State))
 
 # You can count them:
 print(len(State))
+
+""" Si la valeur exacte n'a pas d'importance, vous pouvez utiliser auto """
+
+
+class Color(Enum):
+    RED = auto()
+    BLUE = auto()
+    GREEN = auto()
+
+
+list(Color)
