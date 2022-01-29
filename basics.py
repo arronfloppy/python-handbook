@@ -137,6 +137,9 @@ print([] and False)
 # False
 print(False and [])
 
+# []
+print(True and [])
+
 # Bitwise operators
 # & performs binary AND
 # | performs binary OR

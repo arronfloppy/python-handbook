@@ -2,6 +2,11 @@
 items = ["Roger", 1, "Syd", True]
 print(items)
 
+print(type(items))
+print(isinstance(items, list))
+# True
+
+
 print("Roger" in items)
 # True
 

@@ -22,7 +22,7 @@ print(names.index("Syd"))
 # 1
 
 print(names[-1])
-# Syd
+# David
 
 print(len(names))
 # 3
