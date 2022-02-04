@@ -10,18 +10,20 @@ names = {"Roger", "Syd"}
 # You can intersect two sets:
 set1 = {"Roger", "Syd"}
 set2 = {"Roger"}
-intersect = set1 & set2 #{'Roger'}
+intersect = set1 & set2
+# {'Roger'}
 # You can create a union of two sets:
 set1 = {"Roger", "Syd"}
 set2 = {"Luna"}
 union = set1 | set2
-#{'Syd', 'Luna', 'Roger'}
+# {'Syd', 'Luna', 'Roger'}
 
 # You can get the difference between two sets:
 
 set1 = {"Roger", "Syd"}
 set2 = {"Roger"}
-difference = set1 - set2 #{'Syd'}
+difference = set1 - set2
+# {'Syd'}
 # You can check if a set is a superset of another (and of
 # course if a set is a subset of another)
 set1 = {"Roger", "Syd"}
@@ -32,11 +34,13 @@ isSuperset = set1 > set2
 """ You can count the items in a set with the len()
 global function: """
 names = {"Roger", "Syd"}
-len(names) # 2
+len(names)
+# 2
 """ You can get a list from the items in a set by passing
 the set to the list() constructor: """
 names = {"Roger", "Syd"}
-list(names) #['Syd', 'Roger']
+list(names)
+# ['Syd', 'Roger']
 """ You can check if an item is contained into a set with
 the in operator: """
 print("Roger" in names)
