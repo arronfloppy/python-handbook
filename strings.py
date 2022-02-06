@@ -71,7 +71,7 @@ name[-1]
 # You can also use a range, using what we call slicing:
 name = "Roger"
 name[1:3]
-# "Ro"
+# "og"
 name[:2]
 # "Ro"
 name[2:]
