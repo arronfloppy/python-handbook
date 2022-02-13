@@ -40,6 +40,26 @@ print(name.lower())
 print(name)
 # "Roger"
 
+# finding a substring
+name = "Roger Roger"
+print(name.find("ger"))
+# 2
+# reverse find a substring
+print(name.rfind("ger"))
+# 8
+print(name.rfind("Syd"))
+# -1
+
+# find a substring with index
+print(name.index("ger"))
+# 2
+
+try:
+    print(name.index("syd"))
+except:
+    print("exception throwed")
+
+
 # global functions for strings ex: len
 name = "Roger"
 print(len(name))
