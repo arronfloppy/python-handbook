@@ -56,7 +56,7 @@ print(name.index("ger"))
 
 try:
     print(name.index("syd"))
-except:
+except ValueError:
     print("exception throwed")
 
 
