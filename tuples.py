@@ -30,10 +30,10 @@ print(len(names))
 print("Roger" in names)
 # True
 
-names[0:2]
+print(names[0:2])
 # ('Roger', 'Syd')
-names[1:]
-# ('Syd',)
+print(names[1:])
+# ('Syd','David')
 
 
 """ You can create a sorted version of a tuple using the
