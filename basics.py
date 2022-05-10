@@ -114,7 +114,7 @@ print([] or False)
 # '[]'
 print(False or [])
 
-# and only evaluates the second argument if the first one is true. So if the
+# and evaluates the second argument only if the first one is true. So if the
 # first argument is falsy ( False ,0 , '' , [] ..), it returns that argument.
 # Otherwise it evaluates the second argument:
 # if x is false, then x, else y

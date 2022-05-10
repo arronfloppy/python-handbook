@@ -65,6 +65,9 @@ def hello(name):
     print('Hello ' + name + '!')
 
 
+print(hello(""))
+
+
 """ You can return multiple values by using comma
 separated values: """
 
