@@ -38,17 +38,31 @@ for item in items:
 
 
 # iterate with range
+""" range(4) creates a sequence that starts from 0 and
+contains 4 items: [0, 1, 2, 3] . """
+
+print("range(4)")
 for item in range(4):
     print(item)
 
+""" range(1,4) creates a sequence that starts from 1 and
+ends at 3: [0, 1, 2] . """
 
-""" range(4) creates a sequence that starts from 0 and
-contains 4 items: [0, 1, 2, 3] . """
+print("range(1,4)")
+for item in range(1, 4):
+    print(item)
+
+""" range(4,1,-1) creates a sequence that starts from 4 and
+ends at 2: [4, 3, 2] . """
+
+print("range(4,1,-1)")
+for item in range(4, 1, -1):
+    print(item)
 
 """ To get the index, you should wrap the sequence into
 the enumerate() function """
 
-
+print("enumerate")
 items = [1, 2, 3, 4]
 for index, item in enumerate(items):
     print(index, item)
@@ -66,13 +80,14 @@ next instruction after the loop end.
 The first example here prints 1, 3, 4 . The second
 example prints 1 : """
 
-
+print("break")
 items = [1, 2, 3, 4]
 for item in items:
     if item == 2:
         continue
     print(item)
 
+print("continue")
 items = [1, 2, 3, 4]
 for item in items:
     if item == 2:
