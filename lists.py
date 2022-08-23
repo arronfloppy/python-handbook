@@ -80,3 +80,9 @@ itemscopy = items[:]
 print(sorted(items, key=str.lower))
 """ that will return a new list, sorted, instead of modifying
 the original list. """
+
+""" create a list form a range from 0 to 99
+ """
+
+newlist =  list(range(100))
+print(newlist)
