@@ -90,9 +90,8 @@ name[-1]
 
 # You can also use a range, using what we call slicing:
 name = "Roger"
-name[1:3]
-# "og"
-name[:2]
-# "Ro"
-name[2:]
+assert(name[1:3] == "og")
+assert(name[2:4] == "ge")
+assert(name[:2] == "Ro")
+assert(name[2:] == "ger")
 # "ger"
