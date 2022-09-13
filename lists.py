@@ -85,3 +85,8 @@ the original list. """
 items = list(range(5))
 
 print(isinstance(items, list))
+""" create a list form a range from 0 to 99
+ """
+
+newlist = list(range(100))
+print(newlist)
