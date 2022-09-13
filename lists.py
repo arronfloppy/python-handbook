@@ -46,6 +46,14 @@ items.extend(["test1", "test2"])
 items += ["test3"]
 print(items)
 
+# add list to list
+list1 = [1, 2]
+print(list1)
+list2 = [4, 5]
+print(list2)
+list3 = [*list1, 3, *list2]
+print(list3)
+ 
 # Remove an item using the remove() method:
 items.remove("Test")
 
