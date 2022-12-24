@@ -78,7 +78,7 @@ to execute the next one.
 break stops the loop altogether, and goes on with the
 next instruction after the loop end.
 The first example here prints 1, 3, 4 . The second
-example prints 1 : """
+example prints 1 :  """
 
 print("break")
 items = [1, 2, 3, 4]
