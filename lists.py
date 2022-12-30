@@ -88,6 +88,12 @@ print(sorted(items, key=str.lower))
 """ that will return a new list, sorted, instead of modifying
 the original list. """
 
+""" reverse a list in place
+.reverse() will return None """
+items.reverse()
+print(items)
+
+
 """ You can create a lis from a range expression """
 items = list(range(5))
 
