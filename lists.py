@@ -6,7 +6,6 @@ print(type(items))
 print(isinstance(items, list))
 # True
 
-
 print("Roger" in items)
 # True
 

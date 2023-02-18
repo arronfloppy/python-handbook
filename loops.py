@@ -93,3 +93,12 @@ for item in items:
     if item == 2:
         break
     print(item)
+
+food = {"burger":1, "salad":5, "hotdog":3}
+
+# iterating through dictionary
+for key in food:
+    print("name: " + key + " value: " + str(food[key]))
+
+for item in food.items():
+    print("name: " + item[0] + " value: " + str(item[1]))
