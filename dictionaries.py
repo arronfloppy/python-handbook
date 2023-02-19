@@ -59,4 +59,17 @@ dog['favorite food'] = 'Meat'
 # To copy a dictionary, use the copy() method:
 dogCopy = dog.copy()
 
+# since python 3.6 dictionaries are ordered
+# you can use reversed() function to reverse order
+food = {"chips":(1,1), "bread":(1,2), "baguette":(1,3), "sandwich" : (2,2), 
+ "burger":(3,2), "hotdog":(5,5), "banana":(6,4) }
+
+print("food dictionary:")
+print(food)
+
+foodReversed = dict(reversed(food.items()))
+
+print("food dictionary reversed:")
+print(foodReversed)
+
 
