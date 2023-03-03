@@ -72,9 +72,10 @@ print(hello(""))
 separated values: """
 
 
-def hello(name):
-    print('Hello ' + name + '!')
+def hello(name: str):
+    print('Hello str ' + name + '!')
     return name, 'Roger', 8
+
 
 
 """ In this case calling hello('Syd')
@@ -83,3 +84,4 @@ tuple containing those
 3 values: ('Syd', 'Roger', 8) ."""
 
 print(hello("Syd"))
+

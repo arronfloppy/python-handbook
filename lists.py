@@ -18,9 +18,11 @@ items = ["Roger", "Glov", "Syd", "Bar"]
 print(items[0])
 # "Roger"
 print(items[1])
-# 1
-print(items[3])
-# True
+# Glov
+print(items[2])
+# Syd
+print(items[-1])
+# Bar
 
 # Using the same notation you can change the value stored at a specific index:
 items[0] = "Ian"
