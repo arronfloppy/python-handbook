@@ -30,6 +30,14 @@ set1 = {"Roger", "Syd"}
 set2 = {"Roger"}
 isSuperset = set1 > set2
 # TRUE
+set2 = {"Syd","Roger"}
+isSuperset = set1 >= set2
+# TRUE
+
+set1 =  {"Roger", "Syd", "John"}
+set2 =  {"Roger", "Syd", "Jim"}
+isSuperset = set1 >= set2
+# FALSE
 
 """ You can count the items in a set with the len()
 global function: """
