@@ -5,6 +5,9 @@ Here is a dictionary example with one key/value pair: """
 dog = {'name': 'Roger'}
 print(type(dog))
 
+emptydog = {}
+print(type(emptydog))
+
 """ The key can be any immutable value like a string, a
 number or a tuple. The value can be anything you
 want. """
