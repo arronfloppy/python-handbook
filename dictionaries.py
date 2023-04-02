@@ -20,6 +20,8 @@ print(dog['name'])
 dog['name'] = "Syd"
 print(dog['name'])
 
+
+
 """ And another way is using the get() method, which
 has an option to add a default value: """
 print(dog.get('name'))

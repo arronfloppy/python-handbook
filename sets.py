@@ -53,3 +53,22 @@ list(names)
 the in operator: """
 print("Roger" in names)
 # True
+
+""" copy the set """
+
+set1 = {"Roger", "Syd"}
+set2 = set1.copy()
+iseq = set1 == set2
+print(iseq)
+set2.add("Jim")
+iseq = set1 == set2
+print(iseq)
+
+
+
+
+
+
+
+
+
