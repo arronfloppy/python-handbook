@@ -7,6 +7,8 @@ modified. You can't add or remove items.
 parentheses instead of square brackets: """
 
 names = ("Roger", "Syd", "David")
+print(names)
+print(type(names))
 
 """ A tuple is ordered, like a list, so you can get its values
 referencing an index value: """

@@ -189,3 +189,5 @@ def is_adult4(age):
 
 print(is_adult3(20))
 print(is_adult4(20))
+
+print("str(None): " + str(None))
