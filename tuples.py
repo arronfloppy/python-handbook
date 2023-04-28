@@ -49,3 +49,7 @@ print(namesSorted)
 the + operator: """
 newTuple = names + ("Vanille", "Tina")
 print(newTuple)
+
+t2 = ()
+
+print(type(t2))
