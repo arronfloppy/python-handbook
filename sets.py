@@ -55,7 +55,6 @@ print("Roger" in names)
 # True
 
 """ copy the set """
-
 set1 = {"Roger", "Syd"}
 set2 = set1.copy()
 iseq = set1 == set2
@@ -63,6 +62,14 @@ print(iseq)
 set2.add("Jim")
 iseq = set1 == set2
 print(iseq)
+
+
+""" remove """
+set1 = {"Roger", "Syd"}
+print(set1)
+set1.remove("Syd")
+print(set1)
+
 
 
 

@@ -1,3 +1,5 @@
+from collections import *
+
 """ They allow you to create immutable groups of objects.
 This means that once a tuple is created, it can't be
 modified. You can't add or remove items.
@@ -50,6 +52,11 @@ the + operator: """
 newTuple = names + ("Vanille", "Tina")
 print(newTuple)
 
+""" empty tuple """
 t2 = ()
-
 print(type(t2))
+
+
+Stats = namedtuple("Stats", ["cells","domains"])
+stats = Stats(10,100)
+print(stats)
