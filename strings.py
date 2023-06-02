@@ -42,6 +42,7 @@ print(name)
 
 # finding a substring
 name = "Roger Roger"
+print(name)
 print(name.find("ger"))
 # 2
 # reverse find a substring
