@@ -16,6 +16,8 @@ want. """
 dog = {'name': 'Roger', 'age': 8}
 print(dog['age'])
 print(dog['name'])
+# print(dog['color']) KeyError
+
 
 dog['name'] = "Syd"
 print(dog['name'])
@@ -28,6 +30,8 @@ print(dog.get('name'))
 # 'Roger'
 print(dog.get('test', 'default'))
 # 'default'
+print(dog.get('color'))
+# None
 
 """ The pop() method retrieves the value of a key, and
 subsequently deletes the item from the dictionary: """
