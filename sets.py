@@ -64,9 +64,14 @@ iseq = set1 == set2
 print(iseq)
 
 
-""" remove """
+""" add, remove """
 set1 = {"Roger", "Syd"}
 print(set1)
+assert not "Mason" in set1
+set1.add("Mason")
+print(set1)
+assert "Mason" in set1
+
 set1.remove("Syd")
 print(set1)
 
