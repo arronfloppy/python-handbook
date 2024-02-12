@@ -17,6 +17,8 @@ set1 = {"Roger", "Syd"}
 set2 = {"Luna"}
 union = set1 | set2
 # {'Syd', 'Luna', 'Roger'}
+set11 = {"Luna","Roger", "Syd"}
+eq = (union == set11)
 
 # You can get the difference between two sets:
 
