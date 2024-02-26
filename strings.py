@@ -31,6 +31,12 @@ years old
 # string built-in methods
 # isalpha() isalnum() lower() islower() upper() isupper() title() startsswith()
 # strip() endswith() replace() split() ...
+name='two words'
+res = name.split(' ')
+print(res)
+name='oneword'
+res = name.split(' ')
+print(res)
 
 # None of those methods alter the original string. They return a new,
 # modified string instead. For example:
