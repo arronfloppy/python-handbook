@@ -6,6 +6,10 @@ frozenset . """
 
 """ You can create a set using this syntax: """
 names = {"Roger", "Syd"}
+print(type(names))
+names2 = set()
+print(type(names2))
+
 
 # You can intersect two sets:
 set1 = {"Roger", "Syd"}

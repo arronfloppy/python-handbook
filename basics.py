@@ -1,3 +1,5 @@
+from datetime import date, datetime, timedelta, timezone
+import time
 # The basics of working with python
 # select code in VSCode and run with shift + enter
 
@@ -191,3 +193,34 @@ print(is_adult3(20))
 print(is_adult4(20))
 
 print("str(None): " + str(None))
+
+#datetime
+
+today = date.today()
+print(str(today))
+
+today == date.fromtimestamp(time.time())
+print(str(today))
+
+today = date.today()
+print(str(today))
+
+tomorrow = today + timedelta(days=1)
+print(str(tomorrow))
+
+today = datetime.today()
+print(str(today))
+
+tomorrow = today + timedelta(days=1)
+print(str(tomorrow))
+
+today_utc = datetime.now(timezone.utc)
+
+offset = -2
+today_local = today_utc.replace(hour= today_utc.hour - offset, minute=0, second=0, microsecond=0)
+print(str(today_utc))
+print(str(today_local))
+
+print( str(time.timezone)) 
+
+
