@@ -1,3 +1,5 @@
+from enum import Enum
+
 """ In addition to using the Python-provided types, we can
 declare our own classes, and from classes we can
 instantiate objects.
@@ -72,3 +74,26 @@ roger.walk()
 # 'Walking..'
 roger.bark()
 # 'WOF!'
+
+
+#enums
+
+class Status(Enum):
+    STATUS_OK = 0
+    STATUS_ERR_NULL_POINTER = 1 
+    STATUS_ERR_INVALID_PARAMETER = 2
+
+
+# create enum
+    
+status_ok = Status.STATUS_OK
+
+print( status_ok == Status.STATUS_OK)
+print( status_ok == Status.STATUS_ERR_INVALID_PARAMETER)
+
+print(Status.STATUS_ERR_INVALID_PARAMETER.value)
+print(Status.STATUS_ERR_INVALID_PARAMETER.name)
+
+for item in vars(Status).items():
+    pass
+    print(str(item[0])+ ' ' + str(item[1]))
