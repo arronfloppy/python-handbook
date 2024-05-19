@@ -101,4 +101,5 @@ assert(name[1:3] == "og")
 assert(name[2:4] == "ge")
 assert(name[:2] == "Ro")
 assert(name[2:] == "ger")
+assert(name[:10] == "Roger")
 # "ger"
