@@ -1,3 +1,5 @@
+
+
 # assign string to a variable
 name = "Roger"
 
@@ -31,10 +33,10 @@ years old
 # string built-in methods
 # isalpha() isalnum() lower() islower() upper() isupper() title() startsswith()
 # strip() endswith() replace() split() ...
-name='two words'
+name = 'two words'
 res = name.split(' ')
 print(res)
-name='oneword'
+name = 'oneword'
 res = name.split(' ')
 print(res)
 
@@ -97,9 +99,9 @@ name[-1]
 
 # You can also use a range, using what we call slicing:
 name = "Roger"
-assert(name[1:3] == "og")
-assert(name[2:4] == "ge")
-assert(name[:2] == "Ro")
-assert(name[2:] == "ger")
-assert(name[:10] == "Roger")
+assert (name[1:3] == "og")
+assert (name[2:4] == "ge")
+assert (name[:2] == "Ro")
+assert (name[2:] == "ger")
+assert (name[:10] == "Roger")
 # "ger"
